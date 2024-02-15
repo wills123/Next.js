@@ -1,16 +1,18 @@
 {
-   "name": "my-work-tickets",
-   "version": "1.0.0",
-   "description": "A website to keep track of work tickets for my IT job",
-   "main": "index.js",
-   "scripts": {
-      "start": "node index.js"
-   },
-   "dependencies": {
-      "express": "^4.17.1",
-      "react": "^17.0.2"
-   },
-   "devDependencies": {
-      "nodemon": "^2.0.13"
-   }
+  "name": "my-work-tickets",
+  "version": "1.0.0",
+  "description": "A website to keep track of work tickets for my IT job",
+  "main": "index.js",
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "dependencies": {
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-router-dom": "^6.2.1",
+    "react-scripts": "4.0.3"
+  }
 }
